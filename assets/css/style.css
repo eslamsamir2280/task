@@ -19,7 +19,7 @@ body {
 }
 
 .container .image {
-  padding-top: 60px;
+  padding-top: 40px;
   text-align: center;
 }
 .container .image img {
@@ -55,7 +55,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 90px;
+  padding-top: 60px;
   gap: 25px;
   width: 100%;
   justify-content: center;
