@@ -1,0 +1,170 @@
+body {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+  left: 0;
+  top: 0;
+  position: relative;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.container .image {
+  padding-top: 60px;
+  text-align: center;
+}
+.container .image img {
+  max-width: 80%;
+  margin: 0;
+  padding: 0;
+}
+.welcome-text .container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+}
+.welcome-text .text h2 {
+  font-size: 34px;
+  font-weight: 700;
+  color: #363942;
+  padding-bottom: 30px;
+}
+.welcome-text .text p {
+  text-align: center;
+  font-size: 14px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.14px;
+  text-transform: capitalize;
+  color: #363942;
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 90px;
+  gap: 25px;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+.buttons button {
+  border: none;
+  background-color: #4b7be5;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.16px;
+}
+.buttons a {
+  display: flex;
+  width: 100%;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  background-color: #4b7be5;
+  text-decoration: none;
+  border-radius: 8px;
+}
+.color-2,
+.color-2 button {
+  opacity: 0.699999988079071;
+}
+.container .head {
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+  justify-content: space-between;
+}
+.container .head .right {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 0.18px;
+  color: #363942;
+}
+.container .head img {
+  padding-top: 10px;
+}
+.coolinput {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  position: static;
+  width: 100%;
+}
+
+.coolinput label.text {
+  font-size: 0.75rem;
+  color: #4b7be5;
+  font-weight: 700;
+  position: relative;
+  top: 0.5rem;
+  margin: 0 0 0 7px;
+  padding: 0 3px;
+  background: #fff;
+  width: fit-content;
+}
+
+.coolinput input[type="text"].input,
+.coolinput input[type="password"].input {
+  padding: 11px 10px;
+  font-size: 0.75rem;
+  border: 2px #4b7be5 solid;
+  border-radius: 5px;
+  background: #fff;
+  width: 100%;
+}
+.coolinput input[type="text"].input:focus,
+.coolinput input[type="password"].input {
+  outline: none;
+}
+.login-form {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.login-form button[type="submit"] {
+  width: 100%;
+  background-color: #4b7be5;
+  border: none;
+  border-radius: 8px;
+  height: 50px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.title-log {
+  color: #363942;
+  padding-top: 90px;
+}
+.sign-link {
+  text-align: center;
+  padding-top: 20px;
+}
+.sign-link span {
+  color: #363942;
+}
+.sign-link a {
+  text-decoration: none;
+  color: #4b7be5;
+}
